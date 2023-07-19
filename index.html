@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+<body>
+    <section id="box" class="box">
+        <header class="cabeçalho">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly<br>
+            updates on:</p>
+            <div class="lista">
+                <img src="assets/images/icon-list.svg" class="imagemlista">
+                <p>Product discovery and building what matters</p>
+            </div>
+            <div class="lista">
+                <img src="assets/images/icon-list.svg" class="imagemlista">
+                <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="lista">
+                <img src="assets/images/icon-list.svg" class="imagemlista">
+                <p>And much more!</p>
+            </div>
+        </header>
+
+        <form class="form">
+            <label>Email address</label><br>
+            <input placeholder="arcs@company.com" id="inputemail" type="email"><br>
+            <button type="reset" onclick="quandoTerminar()" id="btn">Subscribe to monthly newsletter</button>
+        </form>
+
+        <div class="img">
+            <img src="assets/images/illustration-sign-up-desktop.svg">
+        </div>
+
+    </section>
+
+    <section id="box2" class="box2">
+       <div>
+        <img src="assets/images/icon-success.svg">
+        <h1>Thanks for<br> subscribing!</h1>
+        <p id="paragrafo">A confirmation email has been sent to<br>
+        <b>teste@testeteste.teste.</b> Please open it and click<br>
+        the button inside to confirm you subscription.</p>
+        <button onclick="quandoReceber()" id="btn2">Dismmis message</button>
+       </div> 
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
